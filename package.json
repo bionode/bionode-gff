@@ -1,0 +1,28 @@
+{
+  "name": "bionode-gff",
+  "version": "1.0.0",
+  "description": "gff parser for nodejs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bionode/bionode-gff.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Martin Page",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bionode/bionode-gff/issues"
+  },
+  "homepage": "https://github.com/bionode/bionode-gff#readme",
+  "devDependencies": {
+    "mocha": "^2.3.2"
+  }
+}
