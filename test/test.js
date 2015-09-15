@@ -298,7 +298,7 @@ var validOutput = [{
     strand: '+',
     phase: '.',
     attributes: {Parent: 'HsT16029'}
-  }]
+  }];
 
 
 
