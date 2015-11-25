@@ -29,7 +29,7 @@ If you are using ```bionode-gff``` with Node.js, you can require the module:
 
 ```js
 var ncbi = require('bionode-gff')
- GFF.read(filePath, onFeature, done);
+ GFF.read(filePath).on('data',onFeatures).on('end', done);
  
  function onFeature(feature){
          console.log(feature.seqid);
