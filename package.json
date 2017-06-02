@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha && standard && dependency-check ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/bionode/bionode-gff#readme",
   "devDependencies": {
-    "mocha": "^2.3.2"
+    "dependency-check": "^2.8.0",
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2"
   }
 }
