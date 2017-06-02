@@ -7,7 +7,7 @@
 </p>
 
 
-#bionode-gff
+# bionode-gff
 
 > Node.js module for parsing gff files
 
