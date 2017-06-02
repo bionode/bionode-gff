@@ -1,1 +1,1 @@
-module.exports = require('./lib/gff');
+module.exports = require('./lib/gff')
