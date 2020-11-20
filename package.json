@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "gff parser for nodejs",
   "main": "index.js",
+  "bin": {
+    "bionode-gff": "cli.js"
+  },
   "directories": {
     "test": "test"
   },
@@ -26,5 +29,12 @@
     "dependency-check": "^2.8.0",
     "mocha": "^3.4.2",
     "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "JSONStream": "^1.3.5",
+    "minimist": "^1.2.5",
+    "pumpify": "^2.0.1",
+    "split2": "^3.2.2",
+    "through2": "^4.0.2"
   }
 }
